@@ -1,13 +1,10 @@
-ebin
+# ext
 *.beam
-*.gz
-*~
-doc
-logs
-deps
+*.iml
+.dump
+
+# dir
+.idea
 .eunit
-.directory
-src/protobuffs_parser.erl
-src/protobuffs_scanner.erl
-erl_crash.dump
-test/Emakefile
+.rebar
+ebin
